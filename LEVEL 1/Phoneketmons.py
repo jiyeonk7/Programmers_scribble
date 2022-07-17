@@ -7,3 +7,7 @@ def solution(nums):
         answer = unique
     # answer = 0
     return answer
+
+# More Concise
+def solution(nums):
+    return min(len(nums)/2, len(set(nums)))

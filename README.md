@@ -12,3 +12,5 @@ Basic algorithms (e.g., DFS, BFS, Factorial, GCD, etc.)
 ## LEVEL 2
 1. Find connected components (FrozenJuice.py)
 2. Solve the maze (SolveMaze.py)
+3. Return whether one is the other's prefix (Phonebook.py)
+4. Get number of all possible number of combinations (Spy.py)

@@ -9,6 +9,7 @@ Basic algorithms (e.g., DFS, BFS, Factorial, GCD, etc.)
 3. Get max sum of list using swap (SwapElement.py)
 4. Get unique number of phoneketmons (Phoneketmons.py)
 5. Recommend new_id for user (newIDRec.py)
+7. Repeating playlist (RepPlaylist.py)
 
 ## LEVEL 2
 1. Find connected components (FrozenJuice.py)

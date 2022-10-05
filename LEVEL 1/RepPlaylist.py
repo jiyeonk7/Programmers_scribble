@@ -22,8 +22,6 @@ class Song:
                 playlist.add(song)
                 song = song.next
         return False
-
-        return None
             
 first = Song("Hello")
 second = Song("Eye of the tiger")

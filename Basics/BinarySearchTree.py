@@ -8,7 +8,15 @@ import collections
 Node = collections.namedtuple('Node', ['left', 'right', 'value'])
 
 def contains(root, value):
-    pass
+  if root is None:
+     return False
+  if value == root.value:
+     return True
+  if value > root.value:
+     return contains(root.right, value)
+  if value < root.value:
+     return contains(root.left, value)
+
         
 n1 = Node(value=1, left=None, right=None)
 n3 = Node(value=3, left=None, right=None)

@@ -1,3 +1,8 @@
+# BST: binary tree where the value of each node is larger or equal to the values in all the nodes in that node's left subtree
+#       and is smaller than the values in all the nodes in that node's right subtree
+# Q: Check if a given binary search tree contains a given value
+
+
 import collections
 
 Node = collections.namedtuple('Node', ['left', 'right', 'value'])
